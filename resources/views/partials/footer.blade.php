@@ -1,3 +1,5 @@
+
+
 <section style="background-image: url('{{ Vite::asset('resources/images/footer-bg.jpg') }}'); background-size: cover; background-position: center; min-height: 400px;">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center ">          
@@ -111,6 +113,23 @@
                 <div> 
                     <img src="{{ Vite::asset('resources/images/dc-logo-bg.png') }}" alt="Logo DC" class="w-1/4 mx-auto my-4">
                 </div>           
+        </div>
+    </div>
+</section>
+<section style="background-color: #303030">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center gap-3 py-4"> 
+            <div class="d-flex align-items-center gap-2"> 
+                <button class="btn border border-primary text-white px-4 py-3 fw-bold position:absolute mx-4" >SIGN-UP NOW!</button>
+            </div>
+            <div class="d-flex align-items-center gap-4"> 
+                <h2 class="text-primary fs-5 fw-bold" >FOLLOW US</h2>
+                <a href="#"><img src="{{ Vite::asset('resources/images/footer-facebook.png') }}" alt="Facebook" class="w-1/4   " ></a>
+                <a href="#"><img src="{{ Vite::asset('resources/images/footer-twitter.png') }}" alt="Twitter" class="w-1/4  " ></a>
+                <a href="#"><img src="{{ Vite::asset('resources/images/footer-youtube.png') }}" alt="Youtube" class="w-1/4  " ></a>
+                <a href="#"><img src="{{ Vite::asset('resources/images/footer-pinterest.png') }}" alt="Pinterest" class="w-1/4  " ></a>
+                <a href="#"><img src="{{ Vite::asset('resources/images/footer-periscope.png') }}" alt="Periscope" class="w-1/4  " ></a>
+            </div>
         </div>
     </div>
 </section>

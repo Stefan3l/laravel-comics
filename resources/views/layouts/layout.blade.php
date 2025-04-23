@@ -10,11 +10,13 @@
 </head>
 <body>
     @include("partials.header")
-    <div class="container">
-
+    @yield("hero")
+    <section style="background-color: #1c1c1c">
+        <div class="container">
     @yield("contenuto")
-
-    </div>
+        </div>
+    </section>
+    @yield("contenuto2")
 
     @include("partials.footer")
     
